@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "librarymanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "keywords": [
+    "library",
+    "library-manager",
+    "library",
+    "manager"
+  ],
+  "author": "solixdev",
+  "license": "MIT"
+}
