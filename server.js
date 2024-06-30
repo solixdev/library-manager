@@ -8,6 +8,8 @@ const port = process.env.PORT;
 const server = createServer((req, res) => {
     if (req.method === "GET" && req.url === "/api/users") {
         userController.getAllUsers(req, res);
+    } else if (req.method === "POST" && req.url === "/api/users") {
+        userController.insertUser(req, res);
     }
 });
 
